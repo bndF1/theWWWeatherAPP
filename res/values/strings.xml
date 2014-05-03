@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">theWWWeather</string>
+    <string name="temperatura">21º</string>
+    <string name="action_settings">Settings</string>
+    <string name="ciudad">Valencia, España</string>
+    <string name="fecha">dd/mm/aaa</string>
+    <string name="tempmax">MAX: 25º</string>
+    <string name="tempmin">MIN: 18º</string>
+    <string name="dia"> Lunes</string>
+    <string name="CityName_Country_Temperature"> CityName_Country_Temperature</string>
+    <string name="Tmin_Tmax_Wind_Clous">Tmin_Tmax_Wind_Clous</string>
+    <string name="Precipitation_Humidity_Pressure">Precipitation_Humidity_Pressure</string>
+    <string name="title_activity_ask_location">AskLocation</string>
+    <string name="locationHint">Search a place</string>
+    <string name="action_search"> Search a place :-) </string>
+    <string name="action_refresh"> Refresh </string>
+    <string name="title_activity_show_forecast">ShowForecast</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_show_forecast_details">ShowForecastDetails</string>
+
+</resources>

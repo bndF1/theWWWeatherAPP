@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:gravity="center_horizontal"
+    android:padding="6dip" >
+    
+<TextView
+    android:id="@+id/Temperatura"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:text="@string/temperatura"
+    android:textSize="70sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="@string/ciudad"
+        android:id="@+id/Ciudad"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="18dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="17dp"
+ />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/fecha"
+        android:id="@+id/fecha"
+        android:layout_below="@+id/Ciudad"
+        android:layout_alignRight="@+id/Ciudad"
+        android:layout_alignEnd="@+id/Ciudad"
+        android:layout_marginRight="36dp" 
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/tempmax"
+        android:id="@+id/tempmax"
+      
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" 
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/tempmin"
+        android:id="@+id/tempmin"
+        android:layout_alignBottom="@+id/Temperatura"
+        android:layout_alignRight="@+id/Temperatura"
+        android:layout_alignEnd="@+id/Temperatura"
+          />
+    
+</RelativeLayout>
